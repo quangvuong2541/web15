@@ -48,7 +48,11 @@ export default class Buoi1 extends Component {
                 {/* \data bilding */}
                 {renderHtml()}
                 <Link to="/buoi2">
-                    chuyển hướng trang
+                    chuyển hướng trang sang buổi 2
+                </Link>
+                <br/>
+                <Link to="/buoi3">
+                    chuyển hướng trang sang buổi 3 
                 </Link>
             </div>
         )
